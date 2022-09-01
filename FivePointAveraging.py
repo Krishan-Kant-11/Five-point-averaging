@@ -11,5 +11,5 @@ while temp != "end":
 l.pop()
 print("Five point average readings are : ")
 for i in range(len(l) -4):
-    avg = (int(l[i]) + int(l[i+1]) + int(l[i+2]) + int(l[i+3]) +int(l[i+4]))/5
+    avg = (float(l[i]) + float(l[i+1]) + float(l[i+2]) + float(l[i+3]) + float(l[i+4]))/5
     print(avg)
